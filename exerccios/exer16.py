@@ -1,8 +1,9 @@
 import math
 list = []
 
-x=int(input())
-list.append()#tentando passar os numeros por aqui
+for n in range(3):
+    x=int(input())
+    list.append(x)#tentando passar os numeros por aqui
 
 for c in list:
-    print(f' {c*2} ')
+    print(f' {pow(c, 2)} ')
